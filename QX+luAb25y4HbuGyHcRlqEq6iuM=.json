@@ -1,0 +1,176 @@
+{
+    "pluginStatus": true,
+    "isPaid": true,
+    "communityName": "Department of WildfireRP",
+    "betaCommunity": true,
+    "features": {
+        "inGameInterface": true,
+        "rangeSimulation": true,
+        "emergencyHotline": true
+    },
+    "talkAroundRange": 1500,
+    "betaServerGroups": [""],
+    "dispatchServerGroups": [""],
+    "dispatchAdvancedServerGroups": [""],
+    "dispatchNameTags": [
+        "(P)",
+        "(S)",
+        "(T)",
+        "(FIRE)",
+        "(QA)",
+        "(EVAL)",
+        "[P]",
+        "[S]",
+        "[T]",
+        "[FIRE]",
+        "[QA]",
+        "[EVAL]"
+    ],
+    "civilianServerGroups": [""],
+    "civChannels": [0],
+    "radioSystems": [16],
+    "rtoChannels": [17],
+    "radioChannels": [
+        {
+            "id": 63,
+            "name": "Tac 3",
+            "soundName": "Ch_Tac3",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 3[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 59,
+            "name": "State",
+            "soundName": "Ch_State",
+            "type": "LEO",
+            "coloredName": "[color=green]State[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 58,
+            "name": "Sheriff",
+            "soundName": "Ch_Sheriff",
+            "type": "LEO",
+            "coloredName": "[color=green]Sheriff[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 57,
+            "name": "Metro",
+            "soundName": "Ch_Metro",
+            "type": "LEO",
+            "coloredName": "[color=green]Metro[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 60,
+            "name": "Fire",
+            "soundName": "Ch_Fire",
+            "type": "LEO",
+            "coloredName": "[color=yellow]Fire[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 61,
+            "name": "Tac 1",
+            "soundName": "Ch_Tac1",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 62,
+            "name": "Tac 2",
+            "soundName": "Ch_Tac2",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 2[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+      
+        {
+            "id": 65,
+            "name": "Car/Car",
+            "soundName": "Ch_CarCar",
+            "type": "LEO",
+            "coloredName": "[color=grey]Car to Car[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        }
+    ],
+  
+    "time_settings": {
+        "emergencyOverridePeriod": 10,
+        "emergencyCooldown": 30,
+        "emergencyOtherCooldown": 20,
+        "dispatchToneCooldown": 15,
+        "radioStunCooldown": 5,
+        "radioPingCooldown": 10,
+        "911Cooldown": 30,
+        "commandStunPeriod": 300,
+        "toneWaitTalkPeriod": 5
+    },
+  
+    "permissions": {
+        "permBasic": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permExtra": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permSit": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permStaff": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permSenior": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permAdmin": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permSuper": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        }
+      
+    }
+}
